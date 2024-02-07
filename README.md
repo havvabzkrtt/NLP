@@ -1,10 +1,12 @@
 # NATURAL LANGUAGE PROCESSING (NLP)
 
-* Metin Ön İşleme *
-* Metin Görselleştirme * 
-* Sentiment Modellemesi * 
-* Hiperparametre Optimizasyonu * 
+AŞAMALAR
+* Metin Ön İşleme 
+* Metin Görselleştirme 
+* Sentiment Modellemesi 
+* Hiperparametre Optimizasyonu 
 
+KÜTÜPHANELER
 - pip install nltk
 - pip install textblob
 - pip install wordcloud
