@@ -28,8 +28,6 @@ Metin ön işleme aşamasında şu işlemler uygulanmıştır:
 
 ## 4. Metin Görselleştirme
 
-Metin görselleştirme adımları şu şekildedir:
-
 - Bartplot ile kelimelerin frekansları görselleştirilmiştir.
 - WordCloud ile kelimelerin frekanslarına göre bir bulut şeklinde görsel oluşturulmuştur.
 
@@ -50,11 +48,8 @@ Random forest, sınıflandırma ve regresyon problemleri için yaygın olarak ku
 
 ## 8. Karşılaştırma Tablosu
 
-| Model              | Başarı Oranı |
-|--------------------|--------------|
-| Lojistik Regresyon | XX%          |
-| Random Forest      | XX%          |
+| Model                       | Başarı Oranı |
+|-----------------------------|--------------|
+| Lojistik Regresyon          | %97          |
+| Random Forest Regresyon     | %98          |
 
----
-
-Bu README dosyası, projenin temel adımlarını ve sonuçlarını özetlemektedir. Daha fazla bilgi için ilgili belgelere bakabilirsiniz.
