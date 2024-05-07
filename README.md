@@ -12,6 +12,3 @@ KÜTÜPHANELER
 - pip install wordcloud
 - pip install nltk
 
-Tabii, işte bir README dosyasının içeriği:
-
----
