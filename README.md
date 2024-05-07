@@ -1,1 +1,17 @@
-EXAMPLES OF NLP
+# NATURAL LANGUAGE PROCESSING (NLP)
+
+AŞAMALAR
+* Metin Ön İşleme 
+* Metin Görselleştirme 
+* Sentiment Modellemesi 
+* Hiperparametre Optimizasyonu 
+
+KÜTÜPHANELER
+- pip install nltk
+- pip install textblob
+- pip install wordcloud
+- pip install nltk
+
+Tabii, işte bir README dosyasının içeriği:
+
+---
