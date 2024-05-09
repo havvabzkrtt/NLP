@@ -1,5 +1,5 @@
  
-# Amazon Yorumları İçin Duygu Analizi (NLP Uygulaması)
+# Amazon Kozmos Yorumları İçin Duygu Analizi (NLP Uygulaması)
 
 Bu proje, Kozmos'un Amazon üzerindeki ürünlerine gelen yorumları analiz ederek, ürünlerin özelliklerini geliştirme ve satışlarını artırma hedefi doğrultusunda gerçekleştirilmiştir.
 
