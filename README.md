@@ -1,6 +1,6 @@
 # NATURAL LANGUAGE PROCESSING (NLP)
 
-AŞAMALAR
+DUYGU ANALİZİ İÇİN AŞAMALAR
 * Metin Ön İşleme 
 * Metin Görselleştirme 
 * Sentiment Modellemesi 
