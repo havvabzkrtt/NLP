@@ -53,7 +53,7 @@ Metiler sayısal verilere çevrilmeli:
 * **TextVectorization** Katmanı: 
     - Veri ön işleme adımlarını, hızlıca yapmak için bize yardımcı olur. 
     - Diğer bir avantajı, data pipeline'larda ya da model içerisinde direkt kullanabilmemizdir. 
-    - Bu katman normalde CPU'da çalışır. Bu katman, tek başına kullanılırsa, modelimiz GPU'yu kullansa bile bu fonksiyon CPU'da çalışacağı için eğitim yavaş olur. 
+    - Bu katman normalde CPU'da çalışır. Bu katman, tek başına kullanılırsa, modelimiz GPU'yu kullansa bile bu fonksiyon CPU'da çalışacağı için eğitim yavaş olur. Bu katmanı GPU'da çalıştırmak için ya model içerisinde ya da data pipeline (veri işleme pipeline) içerisine yerleştirilmelidir. 
     - TextVectorization-TensorFlow.ipynb dosyasında:
         * TensorFlow’un Python 3.13 için henüz destek sunmamasından kaynaklı. Python 3.10 için bir ortam kullanılmıştır.
         
