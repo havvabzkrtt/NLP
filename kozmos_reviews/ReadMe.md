@@ -1,8 +1,8 @@
  # 📌 Diller / Languages
-- 🇹🇷 [Türkçe için tıklayın](#türkçe)
-- 🇬🇧 [English version](#english)
+- [Türkçe](#türkçe)
+- [English](#english)
 
-# GB English
+## English
 
 # 🛍️ Sentiment Analysis on Amazon Kozmos Reviews (NLP Application)
 
@@ -83,7 +83,7 @@ Cross-validation of the model yielded a **98% accuracy score**.
 
 
 
-# 🇹🇷 Türkçe
+## Türkçe
 
 # Amazon Kozmos Yorumları İçin Duygu Analizi (NLP Uygulaması)
 
