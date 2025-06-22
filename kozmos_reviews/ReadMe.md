@@ -81,7 +81,7 @@ Cross-validation of the model yielded a **98% accuracy score**.
 | Random Forest Regression | 98%           |
 
 
-
+---
 
 ## Türkçe
 
