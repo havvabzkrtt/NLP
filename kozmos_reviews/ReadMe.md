@@ -12,8 +12,7 @@ This project was developed with the goal of analyzing customer reviews of Kozmos
 
 ## 1. Project Objectives
 
-Kozmos is a manufacturer focused on home, textile, and daily wear products.  
-The aim of this project is to label customer reviews on Amazon using sentiment analysis, and to classify them into positive and negative categories using **Logistic Regression** and **Random Forest Regression** models.
+Kozmos is a manufacturer focused on home, textile, and daily wear products. The aim of this project is to label customer reviews on Amazon using sentiment analysis, and to classify them into positive and negative categories using **Logistic Regression** and **Random Forest Regression** models.
 
 ---
 
