@@ -1,4 +1,90 @@
- 
+ # 📌 Diller / Languages
+- 🇹🇷 [Türkçe için tıklayın](#türkçe)
+- 🇬🇧 [English version](#english)
+
+# GB English
+
+# 🛍️ Sentiment Analysis on Amazon Kozmos Reviews (NLP Application)
+
+This project was developed with the goal of analyzing customer reviews of Kozmos products on Amazon to support product improvement and boost sales.
+
+---
+
+## 1. Project Objectives
+
+Kozmos is a manufacturer focused on home, textile, and daily wear products.  
+The aim of this project is to label customer reviews on Amazon using sentiment analysis, and to classify them into positive and negative categories using **Logistic Regression** and **Random Forest Regression** models.
+
+---
+
+## 2. Dataset
+
+The dataset is provided in CSV format with the following columns:
+
+- `"Star"`: Number of stars (rating)
+- `"Helpful"`: Number of users who found the review helpful
+- `"Title"`: Title of the review
+- `"Review"`: Review text
+
+---
+
+## 3. Text Preprocessing
+
+The following preprocessing steps were applied to the reviews:
+
+- All words were converted to lowercase.
+- Punctuation marks were removed and replaced with spaces.
+- Numerical expressions were removed.
+- Common stopwords were eliminated.
+- Word frequencies were calculated and low-frequency words were removed.
+- Lemmatization was applied to each word.
+
+---
+
+## 4. Text Visualization
+
+- A **bar plot** was used to visualize word frequencies.
+- A **WordCloud** was generated based on word frequency to represent keywords visually.
+
+---
+
+## 5. Sentiment Analysis
+
+Using `SentimentIntensityAnalyzer`, each review was labeled as:
+- **pos** (positive),
+- **neg** (negative), or
+- **neutral**.
+
+---
+
+## 6. Preparation for Modeling
+
+- The `sentiment_label` column was converted to binary (1 for positive, 0 for negative).
+- The dataset was split into training and testing sets.
+- Text representations were converted into numerical form.
+- A **Random Forest Classifier** model was trained.
+
+---
+
+## 7. Random Forest Regression Modeling
+
+Random Forest is a popular algorithm for both classification and regression problems.  
+Cross-validation of the model yielded a **98% accuracy score**.
+
+---
+
+## 8. Model Comparison Table
+
+| Model                    | Accuracy Rate |
+|--------------------------|---------------|
+| Logistic Regression      | 97%           |
+| Random Forest Regression | 98%           |
+
+
+
+
+# 🇹🇷 Türkçe
+
 # Amazon Kozmos Yorumları İçin Duygu Analizi (NLP Uygulaması)
 
 Bu proje, Kozmos'un Amazon üzerindeki ürünlerine gelen yorumları analiz ederek, ürünlerin özelliklerini geliştirme ve satışlarını artırma hedefi doğrultusunda gerçekleştirilmiştir.
