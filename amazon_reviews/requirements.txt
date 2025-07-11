@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+Pillow
+nltk
+textblob
+scikit-learn
+wordcloud
+jupyter
